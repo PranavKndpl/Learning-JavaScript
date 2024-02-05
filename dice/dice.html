@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <div id="container">
+        <h1>dice roller</h1>
+        <label for="nodie">Enter number of dice</label>
+        <input id="nodie" type="number" value="1" min=1 max=6>
+        <center><button onclick="roll()">roll</button></center>
+        <p id="dievalue"></p>
+
+        <div id="diceimg"></div>
+    </div>
+    <h3><center>other game:</center></h3>
+    <center><button onclick="numberguess()">Number guesser</button></center>
+    
+<script src="dice.js"></script>
+</body>
+</html>

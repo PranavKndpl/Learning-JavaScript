@@ -1,0 +1,109 @@
+
+
+
+/* This is for the clock */
+
+#clock_container{
+    background-image: url("https://images3.alphacoders.com/600/600155.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#clock{
+    font-family:Helvetica, sans-serif;
+    font-size: 6em;
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    backdrop-filter: blur(5px);
+    background-color: hsl(180, 100%, 97%,0.1);
+}
+
+/* this is for stopwatch */
+
+#stp{
+    text-align: center;
+}
+
+#stpcont{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#display{
+    font-size: 4em;
+    text-shadow: 1px 1px 5px;
+    font-family: Helvetica, sans-serif;
+}
+
+#controls button{
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 25px;
+    box-shadow: 1px 1px 5px;
+    margin: 3px;
+}
+
+#controls #startBtn{
+    background-color: rgb(21, 211, 37);
+    
+}
+
+#controls #resetBtn{
+    background-color: rgb(54, 54, 222);
+}
+
+#controls #stopBtn{
+    background-color: rgb(228, 69, 69);
+}
+
+#controls #startBtn:hover{
+    background-color: rgb(58, 227, 72);
+    transform: scale(1.01);
+    border: 1px solid black ;
+    box-shadow: 0 0 10px;
+    
+}
+
+#controls #resetBtn:hover{
+    background-color: rgb(71, 71, 240);
+    transform: scale(1.01);
+    border: 1px solid black ;
+    
+}
+
+#controls #stopBtn:hover{
+    background-color: rgb(244, 85, 85);
+    transform: scale(1.01);
+    border: 1px solid black ;
+    
+}
+
+#controls #startBtn:active{
+    background-color: rgb(21, 211, 37);
+    
+}
+
+#controls #resetBtn:active{
+    background-color: rgb(54, 54, 222);
+}
+
+#controls #stopBtn:active{
+    background-color: rgb(228, 69, 69);
+}
+
+

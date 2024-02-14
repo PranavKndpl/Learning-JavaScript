@@ -1,0 +1,77 @@
+body{
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 202, 202);
+}
+
+h1{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.choice{
+    margin-bottom: 30px;
+}
+
+.choice button{
+    font-size: 5em;
+    min-width: 160px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(87, 199, 255);
+    cursor:crosshair;
+    padding: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.choice button:hover{
+    background-color: rgba(87, 199, 255, 0.8);
+    transform: scale(1.05);
+    border: 3px solid rgb(62, 237, 35);
+}
+
+#player, #computer{
+    font-size: 2em;
+}
+
+#result{
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.win, #playerScore{
+    color: green;
+}
+
+.lose, #compScore{
+    color:red;
+}
+
+.tie{
+    color:rgb(81, 149, 234);
+    text-decoration: overline underline;
+}
+
+.score{
+    font-size: 2rem;
+}
+
+#reset{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(156, 236, 236);
+    border-radius: 10%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#reset:hover{
+    background-color: rgba(183, 239, 239, 1);
+    transform: scale(1.05);
+    border: 1px solid blue;
+}
